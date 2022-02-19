@@ -1,0 +1,25 @@
+{
+  "name": "remark-regexp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx standard-version && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-nk/remark-regexp.git"
+  },
+  "keywords": [],
+  "author": "Julien Barbay <julien.barbay@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-nk/remark-regexp/issues"
+  },
+  "homepage": "https://github.com/y-nk/remark-regexp#readme",
+  "dependencies": {
+    "unist-util-visit": "^4.1.0"
+  }
+}
